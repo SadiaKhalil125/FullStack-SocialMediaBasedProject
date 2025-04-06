@@ -1,0 +1,12 @@
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\bin\Debug\net9.0\Domain.deps.json
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\bin\Debug\net9.0\Domain.dll
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\bin\Debug\net9.0\Domain.pdb
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\obj\Debug\net9.0\Domain.csproj.AssemblyReference.cache
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\obj\Debug\net9.0\Domain.dll
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\obj\Debug\net9.0\refint\Domain.dll
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\obj\Debug\net9.0\Domain.pdb
+D:\webApps\Identity-Bonded\CleanArchitecture\Domain\obj\Debug\net9.0\ref\Domain.dll

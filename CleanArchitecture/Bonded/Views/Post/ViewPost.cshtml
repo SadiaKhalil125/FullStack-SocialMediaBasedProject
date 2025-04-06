@@ -1,0 +1,227 @@
+﻿@model Bonded.Models.ViewModels.PostDetailsViewModel
+@using Microsoft.AspNetCore.Antiforgery
+@inject IAntiforgery Antiforgery
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="csrf-token" content="@Antiforgery.GetAndStoreTokens(ViewContext.HttpContext).RequestToken" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/site.css" type="text/css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Post Details</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: whitesmoke;
+        }
+
+        .main-container {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer {
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .profile-container {
+            margin-top: 40px;
+            margin-bottom: 70px;
+            margin-left: 30px;
+            margin-right: 30px;
+            width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius:5px;
+             box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.1); 
+        }
+
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-weight: bold;
+            color: #444;
+            text-align: center;
+        }
+
+        .btn-dark {
+            background-color: #000;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+            
+        .dropdown-menu {
+            right: 0;
+            left: auto;
+        }
+
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-custom {
+            color:white;
+            border-radius: 25px; /* Ensures rounded corners */
+            padding: 10px 20px; /* Adds padding for better click area */
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+           
+            justify-content: center;
+            transition: transform 0.2s ease-in-out;
+            background-color: #007bff; /* Blue background before liking */
+        }
+
+            .btn-custom:hover {
+                background-color: #007bff; /* Blue background before liking */
+                color:white;
+                transform: scale(1.05); /* Button hover effect */
+            }
+
+        .btn-danger {
+            border-radius: 25px; /* Ensures rounded corners */
+            padding: 10px 20px;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease-in-out;
+            background-color: #dc3545; /* Red background after liking */
+        }
+
+            .btn-danger:hover {
+                border-radius: 25px;
+                background-color: #dc3545;
+                transform: scale(1.05); /* Button hover effect */
+            }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .like-count {
+            margin-left: 8px; /* Adds small gap between count and text */
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container mt-5">
+        <div class="profile-container">
+            <div class="header-actions">
+                <!-- Left side: Arrow -->
+                <form method="get" action="@Url.Action("Profile", "User")">
+                    <a href="/User/DetailedProfile" class="btn rounded-4" style="color:black;font-size:large"><b><i class="bi bi-arrow-left"></i></b></a>
+                </form>
+
+                <!-- Post by user -->
+                <h3 class="flex-grow-1">Post by @Model.Post.Poster.UserName</h3>
+
+                <!-- Right side: Edit Dropdown -->
+                @if (Model.LoginnedUser)
+                {
+                    <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Edit
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="/Post/ShowEditForm?postId=@Model.Post.Id">Edit Post</a></li>
+                            <li><a class="dropdown-item" href="/Post/DeletePost?postId=@Model.Post.Id">Delete Post</a></li>
+                        </ul>
+                    </div>
+                }
+            </div>
+
+            <div class="text-center mt-3">
+                <img src="@Model.Post.ImagePath" alt="Post Image" class="post-image img-fluid" />
+            </div>
+
+            <div class="post-content mt-3">
+                <p>@Model.Post.Content</p>
+            </div>
+
+            <!-- Like Button Wrapper -->
+            <div class="text-center mt-4">
+                <button class="btn @((Model.LikedByUser) ? "btn-danger" : "btn-custom") toggle-like"
+                        data-post-id="@Model.Post.Id">
+                    @if (Model.LikedByUser)
+                    {
+                        <text>Liked <i class="bi bi-heart-fill" style="margin-left: 8px;"></i></text>
+                    }
+                    else
+                    {
+                        <text>Like <i class="bi bi-heart" style="margin-left: 6px;"></i></text>
+                    }
+                </button>
+            </div>
+
+
+            <!-- Like Count -->
+            <div class="text-center mt-3">
+                <p><strong>Likes:</strong> <span id="likeCount" class="like-count">@Model.LikeCount</span></p>
+            </div>
+
+            <!-- Comment Button -->
+            <div class="text-center mt-4">
+                <a href="/Comment/AddComment?postId=@Model.Post.Id" class="btn btn-dark">Comment</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).on("click", ".toggle-like", function (e) {
+            e.preventDefault();
+
+            var button = $(this);
+            var postId = button.data("post-id");
+
+            $.ajax({
+                url: '/Like/ToggleLike', // URL to the controller action
+                type: 'POST',
+                data: { postId: postId },
+                success: function (response) {
+                    if (response.success) {
+                        // Update button text and style
+                        if (response.isliked) {
+                            button.removeClass("btn-custom").addClass("btn-danger").html('Liked <i class="bi bi-heart-fill" style="margin-left: 8px;"></i>');
+                        } else {
+                            button.removeClass("btn-danger").addClass("btn-custom").html('Like <i class="bi bi-heart" style="margin-left: 6px;"></i>');
+                        }
+
+                        // Update like count
+                        $("#likeCount").text(response.likeCount);
+                    } else {
+                        alert(response.message || "An error occurred.");
+                    }
+                },
+                error: function () {
+                    alert("Failed to update like status. Please try again.");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

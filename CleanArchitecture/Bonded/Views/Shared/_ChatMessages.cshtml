@@ -1,0 +1,32 @@
+﻿@model List<Bonded.Models.ViewModels.ConvoViewModel>
+
+@foreach (var message in Model)
+{
+    <div class="message @(message.Sender.Id == ViewBag.CurrentUserId ? "sent" : "received")" data-msgid="@message.Message.Id">
+        @if (message.Sender.Id == ViewBag.CurrentUserId)
+        {
+            <a href="javascript:void(0);" class="delete-btn" data-msgid="@message.Message.Id">
+                <i class="bi bi-x-circle"></i>
+            </a>
+        }
+
+        @*  @if (message.Sender.Id == ViewBag.CurrentUserId)
+        {
+            <a href="/Chat/DeleteMessage/?msgId=@message.Message.Id" class="delete-btn">
+                <i class="bi bi-x-circle"></i>
+            </a>
+        } *@
+        <img src="@message.Sender.ProfilePicture" alt="Profile Picture">
+        <div class="text">
+            @message.Message.Text
+            <br>
+            <small class="text-muted">@message.Message.Timestamp.ToString("hh:mm tt")</small>
+        </div>
+        @if (message.Sender.Id == ViewBag.CurrentUserId)
+        {
+            <a href="javascript:void(0);" class="delete-btn" data-msgid="@message.Message.Id">
+                <i class="bi bi-x-circle"></i>
+            </a>
+        }
+    </div>
+}

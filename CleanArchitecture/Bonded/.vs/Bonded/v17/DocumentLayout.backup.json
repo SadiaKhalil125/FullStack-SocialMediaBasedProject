@@ -1,0 +1,1030 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\post\\showeditform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\post\\showeditform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\follow\\showfollowing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\follow\\showfollowing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\user\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\user\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6419B3F-B5BC-4953-97E6-0A2C9900CF12}|..\\Infrastructure\\Infrastructure.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84AEA22-FE28-4B0D-B0C4-E95DF0CE0FBC}|..\\Application\\Application.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\post\\viewpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\post\\viewpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\comment\\addcomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\comment\\addcomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\user\\viewotherprofiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\user\\viewotherprofiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\controllers\\followcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:controllers\\followcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84AEA22-FE28-4B0D-B0C4-E95DF0CE0FBC}|..\\Application\\Application.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\application\\services\\followservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84AEA22-FE28-4B0D-B0C4-E95DF0CE0FBC}|..\\Application\\Application.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\application\\interfaces\\ifollowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\notification\\allnotifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\notification\\allnotifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\follow\\showfollower.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\follow\\showfollower.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\user\\viewpicture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\user\\viewpicture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\user\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\user\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\user\\deleteaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\user\\deleteaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\chat\\chatview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\chat\\chatview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\post\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\post\\createpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\shared\\components\\showposts\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\shared\\components\\showposts\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\user\\detailedprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\user\\detailedprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\shared\\components\\showotherpost\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\shared\\components\\showotherpost\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\comment\\deletecomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\comment\\deletecomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6419B3F-B5BC-4953-97E6-0A2C9900CF12}|..\\Infrastructure\\Infrastructure.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73397F7-574C-426F-9FB9-A6B45B300207}|..\\Domain\\Domain.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\components\\showcommentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:components\\showcommentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\shared\\components\\showcommentdetails\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\shared\\components\\showcommentdetails\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\views\\shared\\_commentspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:views\\shared\\_commentspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84AEA22-FE28-4B0D-B0C4-E95DF0CE0FBC}|..\\Application\\Application.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\application\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84AEA22-FE28-4B0D-B0C4-E95DF0CE0FBC}|..\\Application\\Application.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\application\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6419B3F-B5BC-4953-97E6-0A2C9900CF12}|..\\Infrastructure\\Infrastructure.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\infrastructure\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73397F7-574C-426F-9FB9-A6B45B300207}|..\\Domain\\Domain.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\domain\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\models\\viewmodels\\commentsdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:models\\viewmodels\\commentsdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\models\\viewmodels\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:models\\viewmodels\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6419B3F-B5BC-4953-97E6-0A2C9900CF12}|..\\Infrastructure\\Infrastructure.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/IdentityBondedProjectDB/True/SqlTable/dbo.Convos.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6419B3F-B5BC-4953-97E6-0A2C9900CF12}|..\\Infrastructure\\Infrastructure.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\infrastructure\\repositories\\chatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84AEA22-FE28-4B0D-B0C4-E95DF0CE0FBC}|..\\Application\\Application.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\application\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84AEA22-FE28-4B0D-B0C4-E95DF0CE0FBC}|..\\Application\\Application.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\application\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84AEA22-FE28-4B0D-B0C4-E95DF0CE0FBC}|..\\Application\\Application.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\application\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6419B3F-B5BC-4953-97E6-0A2C9900CF12}|..\\Infrastructure\\Infrastructure.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84AEA22-FE28-4B0D-B0C4-E95DF0CE0FBC}|..\\Application\\Application.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84AEA22-FE28-4B0D-B0C4-E95DF0CE0FBC}|..\\Application\\Application.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6419B3F-B5BC-4953-97E6-0A2C9900CF12}|..\\Infrastructure\\Infrastructure.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\infrastructure\\repositories\\followrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\bonded\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D898210-D34B-4A1B-A00E-138EFAE1F1E9}|Bonded.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6419B3F-B5BC-4953-97E6-0A2C9900CF12}|..\\Infrastructure\\Infrastructure.csproj|d:\\webapps\\identity-bonded\\cleanarchitecture\\infrastructure\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewOtherProfiles.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\ViewOtherProfiles.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\ViewOtherProfiles.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\ViewOtherProfiles.cshtml",
+              "RelativeToolTip": "Views\\User\\ViewOtherProfiles.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T06:54:17.305Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowEditForm.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Post\\ShowEditForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\ShowEditForm.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Post\\ShowEditForm.cshtml",
+              "RelativeToolTip": "Views\\Post\\ShowEditForm.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T08:12:27.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\PostRepository.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\PostRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T05:59:34.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAMsAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T06:37:32.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowFollowing.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Follow\\ShowFollowing.cshtml",
+              "RelativeDocumentMoniker": "Views\\Follow\\ShowFollowing.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Follow\\ShowFollowing.cshtml",
+              "RelativeToolTip": "Views\\Follow\\ShowFollowing.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:36:20.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\PostService.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\PostService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\PostService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:04:58.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Dashboard.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\User\\Dashboard.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T05:33:52.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Controllers\\PostController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:04:37.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Profile.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "Views\\User\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T08:27:24.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddComment.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Comment\\AddComment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comment\\AddComment.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Comment\\AddComment.cshtml",
+              "RelativeToolTip": "Views\\Comment\\AddComment.cshtml",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAAM8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T09:48:35.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewPost.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Post\\ViewPost.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\ViewPost.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Post\\ViewPost.cshtml",
+              "RelativeToolTip": "Views\\Post\\ViewPost.cshtml",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAADcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:14:10.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommentController.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "Controllers\\CommentController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwE4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:05:51.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FollowController.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\FollowController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FollowController.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\FollowController.cs",
+              "RelativeToolTip": "Controllers\\FollowController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:33:24.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FollowService.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\FollowService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\FollowService.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\FollowService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\FollowService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAlwDsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:32:41.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IFollowRepository.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Interfaces\\IFollowRepository.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\IFollowRepository.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Interfaces\\IFollowRepository.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\IFollowRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:22:21.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AllNotifications.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Notification\\AllNotifications.cshtml",
+              "RelativeDocumentMoniker": "Views\\Notification\\AllNotifications.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Notification\\AllNotifications.cshtml",
+              "RelativeToolTip": "Views\\Notification\\AllNotifications.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:53:00.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShowFollower.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Follow\\ShowFollower.cshtml",
+              "RelativeDocumentMoniker": "Views\\Follow\\ShowFollower.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Follow\\ShowFollower.cshtml",
+              "RelativeToolTip": "Views\\Follow\\ShowFollower.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:39:30.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ViewPicture.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\ViewPicture.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\ViewPicture.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\ViewPicture.cshtml",
+              "RelativeToolTip": "Views\\User\\ViewPicture.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:52:31.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\ResetPassword.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\ResetPassword.cshtml",
+              "RelativeToolTip": "Views\\User\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:52:19.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeleteAccount.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\DeleteAccount.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\DeleteAccount.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\DeleteAccount.cshtml",
+              "RelativeToolTip": "Views\\User\\DeleteAccount.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:52:04.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "Views\\User\\Register.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:51:49.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:51:22.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Chat\\Index.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "Views\\Chat\\Index.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:47:07.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreatePost.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Post\\CreatePost.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\CreatePost.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Post\\CreatePost.cshtml",
+              "RelativeToolTip": "Views\\Post\\CreatePost.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:45:55.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChatView.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Chat\\ChatView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Chat\\ChatView.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Chat\\ChatView.cshtml",
+              "RelativeToolTip": "Views\\Chat\\ChatView.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAMcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T09:01:00.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Home\\Search.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Search.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Home\\Search.cshtml",
+              "RelativeToolTip": "Views\\Home\\Search.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:43:32.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Shared\\Components\\ShowPosts\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\ShowPosts\\Default.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Shared\\Components\\ShowPosts\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\ShowPosts\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T06:32:13.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Shared\\Components\\ShowOtherPost\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\ShowOtherPost\\Default.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Shared\\Components\\ShowOtherPost\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\ShowOtherPost\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T07:03:01.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvzgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-06T05:31:03.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DetailedProfile.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\DetailedProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\DetailedProfile.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\User\\DetailedProfile.cshtml",
+              "RelativeToolTip": "Views\\User\\DetailedProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T08:29:40.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteComment.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Comment\\DeleteComment.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comment\\DeleteComment.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Comment\\DeleteComment.cshtml",
+              "RelativeToolTip": "Views\\Comment\\DeleteComment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T09:48:39.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_CommentsPartial.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Shared\\_CommentsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_CommentsPartial.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Shared\\_CommentsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_CommentsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T09:48:45.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T06:06:03.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:02:02.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Shared\\Components\\ShowCommentDetails\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\ShowCommentDetails\\Default.cshtml",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Views\\Shared\\Components\\ShowCommentDetails\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\ShowCommentDetails\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T09:49:07.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ShowCommentDetails.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Components\\ShowCommentDetails.cs",
+              "RelativeDocumentMoniker": "Components\\ShowCommentDetails.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Components\\ShowCommentDetails.cs",
+              "RelativeToolTip": "Components\\ShowCommentDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T09:49:41.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\User.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Domain\\User.cs",
+              "RelativeToolTip": "..\\Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:37:30.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\CommentService.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\CommentService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\CommentService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T09:43:08.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Interfaces\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\ICommentRepository.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Interfaces\\ICommentRepository.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\ICommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T09:42:58.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Domain\\Comment.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Comment.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Domain\\Comment.cs",
+              "RelativeToolTip": "..\\Domain\\Comment.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T09:32:04.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CommentsDetailViewModel.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Models\\ViewModels\\CommentsDetailViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\CommentsDetailViewModel.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Models\\ViewModels\\CommentsDetailViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\CommentsDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T09:17:48.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ChatViewModel.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Models\\ViewModels\\ChatViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\ChatViewModel.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Models\\ViewModels\\ChatViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\ChatViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T09:01:17.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\ChatService.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\ChatService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\ChatService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:52:31.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "dbo.Convos.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/IdentityBondedProjectDB/True/SqlTable/dbo.Convos.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/IdentityBondedProjectDB/True/SqlTable/dbo.Convos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-13T08:48:16.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAiwOkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:21:08.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T08:17:01.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\AdminRepository.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\AdminRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:12:23.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\AdminService.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\AdminService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:10:37.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Interfaces\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\IAdminRepository.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Interfaces\\IAdminRepository.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\IAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:10:24.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T13:57:42.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:06:40.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\ChatController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAADwv6UAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:05:44.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T13:58:35.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:01:31.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:01:52.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "FollowRepository.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\FollowRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\FollowRepository.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\FollowRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\FollowRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:21:35.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ChatRepository.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\ChatRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\ChatRepository.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\ChatRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\ChatRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T06:26:05.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\CommentRepository.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\Repositories\\CommentRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\CommentRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T06:06:49.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:02:07.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "chat.js",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\wwwroot\\js\\chat.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\chat.js",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\wwwroot\\js\\chat.js",
+              "RelativeToolTip": "wwwroot\\js\\chat.js",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-07T23:59:41.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "libman.json",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\libman.json",
+              "RelativeDocumentMoniker": "libman.json",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Bonded\\libman.json",
+              "RelativeToolTip": "libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-07T23:56:47.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "libman.json",
+              "DocumentMoniker": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\libman.json",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\libman.json",
+              "ToolTip": "D:\\webApps\\Identity-Bonded\\CleanArchitecture\\Infrastructure\\libman.json",
+              "RelativeToolTip": "..\\Infrastructure\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-07T23:56:24.853Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

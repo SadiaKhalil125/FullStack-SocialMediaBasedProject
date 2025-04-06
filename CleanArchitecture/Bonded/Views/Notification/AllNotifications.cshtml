@@ -1,0 +1,162 @@
+﻿@model IList<Bonded.Domain.Notification>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/site.css" type="text/css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>All Notifications</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: whitesmoke;
+        }
+
+        .scrollable-comments {
+            max-height: 500px; /* Adjust height as needed */
+            overflow-y: auto;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .main-container {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer {
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .notification-container {
+            margin-top: 80px;
+            margin-bottom: 80px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .notification-item {
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .notification-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .notification-content a {
+                text-decoration: none;
+                color: #000;
+            }
+
+                .notification-content a:hover {
+                    color: #004080;
+                }
+
+            .notification-content i {
+                margin-left: 10px;
+                color: black;
+            }
+
+        time {
+            font-size: 0.9rem;
+            color: #999;
+            display: block; /* Forces date to the next line */
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="notification-container scrollable-comments">
+            <div style="display:flex;justify-content:center;">
+                <h3 class="fw-bolder mb-3" style="color:dimgray">All Notifications</h3>
+            </div>
+
+            @if (!Model.Any())
+            {
+                <p class="text-center text-muted">No notifications available.</p>
+            }
+            else
+            {
+                @foreach (var notification in Model)
+                {
+                    <div class="notification-item">
+                        <div class="notification-content">
+                            @if (notification.Message.Contains("followed", StringComparison.OrdinalIgnoreCase))
+                            {
+                                <a class="fw-bold" href="@Url.Action("ViewOtherProfiles", "User", new { id = notification.UserId })">
+                                    @notification.Message
+                                </a>
+                            }
+                            else
+                            {
+                                <a class="fw-bold" href="@Url.Action("ViewPost", "Post", new { id = notification.RelatedId })">
+                                    @notification.Message
+                                </a>
+                            }
+                            <a class="ms-2 delete-comment-btn" href="javascript:void(0);" style="align-items: center;" data-notificationid="@notification.Id">
+                                <i class="bi bi-x-circle"></i>
+                            </a>
+                        </div>
+                        <time>@notification.CreatedAt.ToString("MM/dd/yyyy hh:mm tt")</time>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Handle delete notification click
+            $(document).on('click', '.delete-comment-btn', function () {
+                const notificationId = $(this).data('notificationid'); // Get the notification ID
+                const $notificationItem = $(this).closest('.notification-item'); // Reference the notification item
+
+                if (confirm("Are you sure you want to delete this notification?")) {
+                    $.ajax({
+                        url: '/Notification/DeleteNotification',
+                        type: 'POST',
+                        data: { id: notificationId },
+                        success: function (response) {
+                            if (response.success) {
+                                $notificationItem.remove(); // Remove the notification from the DOM
+                            } else {
+                                alert("Failed to delete notification: " + response.message);
+                            }
+                        },
+                        error: function () {
+                            alert("An error occurred while deleting the notification.");
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
